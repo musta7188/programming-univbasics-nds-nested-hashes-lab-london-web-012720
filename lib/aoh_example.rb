@@ -30,7 +30,9 @@ array = [
 end
 
 def aoh_lookup(aoh, row, key)
-  value = aoh.[row][key]
+  
+  value = aoh[row][key]
+  
   value
 end
 
